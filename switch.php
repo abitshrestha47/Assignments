@@ -16,7 +16,7 @@
         case $num>=50:
             echo ("Grade D.");
             break;
-        case $num>=0 && $num<=40:
+        case $num>=0 && $num<=40: //when num=0 output Grade A error.
             echo ("Unsufficient.");
             break;
         default:
