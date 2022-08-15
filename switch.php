@@ -16,7 +16,7 @@
         case $num>=50 && $num<=59:
             echo ("Grade D.");
             break;
-        case $num>=0 && $num<=40://mistake output when input 0
+        case $num>=0 && $num<=40:
             echo ("Unsufficient.");
             break;
         default:
